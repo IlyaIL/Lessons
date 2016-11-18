@@ -9,7 +9,7 @@ class Summa {
     int i = 2;
     int j = 3;
 
-    int summ(){
+    public int summ(){
         int summ1 = i + j;
         return summ1;
     }
