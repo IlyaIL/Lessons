@@ -11,7 +11,7 @@ public class Main {
         System.out.println("Длина окружности " + c.lenghtCircle());
         System.out.println("Площадь круга " + c.squareCircle());
         System.out.println("Диаметер круга " + c.diameterCircle());
-        
+
         // метод возвращающий строковое представление состояния класса: тут нужно было вот так?
         System.out.println("Cтроковое представление состояния класса " + c.toString());
     }
@@ -51,5 +51,8 @@ public class Main {
          double diam = 2*r;
          return diam;
      }
-
+     // cтроковое представление состояния класса
+     public String toString() {
+         return "(" + x + ";" + y + ")";
+     }
 }
